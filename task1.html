@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+
+body {
+  background-color:bisque;
+}
+
+
+.form{
+
+    height: 500px;
+    width: 900px;
+     margin-left: 50px;
+     margin-top: 50px;
+
+    background-color:beige;
+
+    padding: 20px;
+
+}
+
+    </style>
+</head>
+<body>
+
+   
+    <h2 style="color: grey;">Magnifier Settings</h2>
+
+
+        <div class="form">
+
+
+            <br>
+
+            <form>
+                <label for="myText"  style="margin-right: 50px;" >Zoom Box Width:</label>
+                <input type="text" id="myText" name="myText"  value="auto" style="margin-right: 10px;">
+                <em>The width of the magnifier box (default:auti)</em>
+                <br><br><br>
+                <label for="myText"  style="margin-right: 45px;" >Zoom Box Hieght:</label>
+                <input type="text" id="myText" name="myText"  value="auto" style="margin-right: 10px;">
+                <em>The height of the magnifier box (default:auti)</em>
+                <br><br><br>
+                <label for="myText"  style="margin-right: 90px;" >Image Size:</label>
+                <input type="text" id="myText" name="myText"  value="600" style="margin-right: 2px; width: 35px;">
+                x
+                <input type="text" id="myText" name="myText"  value="600" style="margin-right: 10px; width: 35px;">
+                <em>px The size of image used with magnifier box</em><br>
+                <input type="checkbox" id="myCheckbox" name="myCheckbox"  style="margin-left: 170px;">Do you want to hard crop the image?
+                <br><br><br>
+                <label for="myText"  style="margin-right: 40px;" >Zoom box position:</label>
+                <select id="myDropdown" name="myDropdown">
+                    <option value="option1">insert</option>
+                    <option value="option2">insert</option>
+                    <option value="option3">insert</option>
+                  </select>
+                  The magnifier position
+                  <br><br><br>
+                <label for="myText"  style="margin-right: 90px;" >Zoom box position <br>for mobile:</label>
+                <select id="myDropdown" name="myDropdown">
+                    <option value="option1">insert</option>
+                    <option value="option2">insert</option>
+                    <option value="option3">insert</option>
+                  </select>
+                  The magnifier position for mobile devices(iPhone,Android,etc)
+                  <br><br><br>
+                  <label for="myText"  style="margin-right: 57px;" >Loading Label       :</label>
+                  <input type="text" id="myText" name="myText"  value="Loading..." style="margin-right: 10px;">
+                  <br><br><br>
+                  <label for="Lense Opacity"   style="margin-right: 65px;">Lense Opacity</label>
+                  <input type="range" id="mySlider" name="mySlider" min="0" max="100" value="50" style="color:black ;">
+                  <br><br><br>
+                  <label for="myText"  style="margin-right: 57px;" >Blur     :</label>
+                  <input type="checkbox" id="myCheckbox" name="myCheckbox"  style="margin-left: 70px;">
+                  Add blur effect to small image on mouse hover.
+              </form>
+
+        </div>
+
+   
+    
+</body>
+</html> 
